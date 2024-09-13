@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// To check if the given element is present in the array or not 
 public class arrys {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
