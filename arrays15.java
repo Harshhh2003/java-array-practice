@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class  arrays15{
     static void printarray(int [][] array){
