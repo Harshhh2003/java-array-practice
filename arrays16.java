@@ -20,7 +20,7 @@ public class arrays16 {
                 rotated[j][row - 1 - i] = matrix[i][j];
             }
         }
-        System.out.println("Matrix after 90 degrees clockwise rotation:");
+        System.out.println("Matrix after 90 degrees clockwise rotation:       ");
         printArray(rotated); 
     }
 
