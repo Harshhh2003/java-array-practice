@@ -22,8 +22,24 @@ public class arraylist {
         System.out.println(l1.get(2));
         
         // print all elements using a for loop
-        for (int k = 0; k < l1.size(); k++) {
-            System.out.println(l1.get(k));
+        // for (int k = 0; k < l1.size(); k++) {
+        //     System.out.println(l1.get(k));
+        //     System.out.println(l1);
+            //   adding new element at index1 
+         l1.add(1, 2000);
+         System.out.println(l1);
+        //    modify the  value oof index 1
+        l1.set(1, 21);
+        System.out.println(l1);
+        //  to remove any elemnt 
+        l1.remove(4);
+        System.out.println(l1);
+        // removing an elemnt without using its index
+        l1.remove(Integer.valueOf(11));
+        System.out.println(l1);
+        // checking if the element is present or not
+        boolean ans  = l1.contains(Integer.valueOf(45));
+        System.out.println(ans);
         }
     }
-}
+
