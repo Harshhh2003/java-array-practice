@@ -20,6 +20,7 @@ public class arraylist2{
         ArrayList<Integer> list =  new ArrayList<>();
         list.add(20); list.add(29);
         list.add(34); list.add(67);
+        list.add(100);
         System.out.println("original list   "   +   list);
 
         
