@@ -11,7 +11,7 @@ public class arraylist4{
         list.add(100);
         list.add(456);
         System.out.println("Original list: " + list);
-Collections.sort(list , Collections.reverseOrder());
+Collections.sort(list, Collections.reverseOrder());
 System.out.println(  " descending order list is   "   +  list);
         
     }
