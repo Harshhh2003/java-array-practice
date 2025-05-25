@@ -19,6 +19,8 @@ for(int i=1; i<n; i++){
     }
     
   }
+  
+  
   if(isSorted){
     System.out.println("given array is sorted");
   } else{
